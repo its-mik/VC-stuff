@@ -14,7 +14,7 @@
 }
 
 
-[class*="panels"][aria-label*="User area"]  {
+[class*="panels"][aria-label*="User"]  {
   display: flex;
   flex-direction: column;
   background: var(--bg-color);
@@ -22,26 +22,26 @@
   border-radius: var(--panel-radius);
 }
 
-[class*="panels"][aria-label*="User area"] > [class*="mask"] {
+[class*="panels"][aria-label*="User"] > [class*="mask"] {
   order: var(--order-quests);
   margin-inline: 0;
   padding-inline: 0;
 }
 
-[class*="panels"][aria-label*="User area"] > [class*="mask"] > [class*="wrapper"],
-[class*="panels"][aria-label*="User area"] > [class*="mask"] > [class*="wrapperVisible"] {
+[class*="panels"][aria-label*="User"] > [class*="mask"] > [class*="wrapper"],
+[class*="panels"][aria-label*="User"] > [class*="mask"] > [class*="wrapperVisible"] {
   border-radius: var(--panel-radius);
 }
 
 [class*="listeningAlong"] {
   order: var(--order-listening);
 }
-[class*="panels"][aria-label*="User area"] > [class*="panel"] {
+[class*="panels"][aria-label*="User"] > [class*="panel"] {
   order: var(--order-stream);
   padding: calc(var(--custom-guild-list-padding) - var(--custom-panels-spacing) + 3px);
 }
 
-[class*="panels"][aria-label*="User area"] > [class*="wrapper"] {
+[class*="panels"][aria-label*="User"] > [class*="wrapper"] {
   order: var(--order-voice);
 
   &:not(:has[class*="container"]) {
@@ -53,7 +53,7 @@
   }
 }
 
-[class*="panels"][aria-label*="User area"] > [class*="container"] {
+[class*="panels"][aria-label*="User"] > [class*="container"] {
   order: var(--order-profile);
 
   &:has[class*="plated"] {
