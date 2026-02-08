@@ -24,7 +24,7 @@
     pointer-events: none;
 }
 
-[class*="panels"][aria-label*="User area"]::after{
+[class*="panels"][aria-label*="User"]::after{
   margin-top: -136px;
   position: absolute;
   width: 228px;
