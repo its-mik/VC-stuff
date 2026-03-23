@@ -1,5 +1,6 @@
 [class*="scroller"] [class*="emptyCard"]::before {
     content: 
+    "...               \a"
    "  ╱|、   \a"
  "(˚ˎ 。7  \a"
   "  |、˜〵\  \a"
