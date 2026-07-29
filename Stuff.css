@@ -1,13 +1,13 @@
-.user-profile-sidebar > [class*="inner"] > [class*="footer"] { position: relative;}
-.user-profile-sidebar > [class*="inner"] > [class*="footer"]::before {
+.user-profile-sidebar > [class*="inner"] > [class*="redesignFooter"] { position: relative;}
+.user-profile-sidebar > [class*="inner"] > [class*="redesignFooter"]::before {
     position: absolute;
     content: "";
 
     inset: 0;
     padding: 0 20px;
-    bottom: 6px;
+    bottom: 20px;
     top: unset;
-    left: 70px;
+    left: 90px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
