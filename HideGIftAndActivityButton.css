@@ -1,0 +1,8 @@
+[class*="app-launcher-entrypoint"],
+[class*="button"][aria-label*="Send a gift"] {
+    display: none;
+}
+
+[class*="statusPopover"], [class*="avatarPopover"], [class*="activityPopover"] {
+    display: none;
+}
