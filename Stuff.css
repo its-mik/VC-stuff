@@ -35,3 +35,12 @@
   z-index: 1000;
   pointer-events: none;
 }
+
+[class*="panels"][aria-label*="User"]  {
+  display: flex;
+  flex-direction: column;
+}
+
+[class*="panels"][aria-label*="User"] > [class*="activityPanel"] {
+    background-color: black;
+}
