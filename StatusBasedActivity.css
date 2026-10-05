@@ -8,13 +8,15 @@
 
 [class*="memberInner"]:has([class*="avatar"] [aria-label*="Idle"]) svg path[fill="#45a366"],
 [class*="channel"]:has([class*="avatar"] [aria-label*="Idle"]) svg path[fill="#45a366"],
-[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Idle"]) svg path[fill="#45a366"] {
+[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Idle"]) svg path[fill="#45a366"],
+[class*="upperContainer"]:has([class*="avatar"] [aria-label*="Idle"]) svg path[fill="#45a366"] {
   fill: var(--idle-color) !important;
 }
 
 [class*="memberInner"]:has([class*="avatar"] [aria-label*="Idle"]) [class*="activityCounter"][style*="var(--status-positive)"],
 [class*="channel"]:has([class*="avatar"] [aria-label*="Idle"]) [class*="activityCounter"][style*="var(--status-positive)"],
-[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Idle"]) [class*="activityCounter"][style*="var(--status-positive)"] {
+[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Idle"]) [class*="activityCounter"][style*="var(--status-positive)"],
+[class*="upperContainer"]:has([class*="avatar"] [aria-label*="Idle"]) [class*="activityCounter"][style*="var(--status-positive)"] {
   color: var(--idle-color) !important;
 }
 
@@ -22,13 +24,15 @@
 
 [class*="memberInner"]:has([class*="avatar"] [aria-label*="Do Not Disturb"]) svg path[fill="#45a366"],
 [class*="channel"]:has([class*="avatar"] [aria-label*="Do Not Disturb"]) svg path[fill="#45a366"],
-[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Do Not Disturb"]) svg path[fill="#45a366"] {
+[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Do Not Disturb"]) svg path[fill="#45a366"],
+[class*="upperContainer"]:has([class*="avatar"] [aria-label*="Do Not Disturb"]) svg path[fill="#45a366"] {
   fill: var(--dnd-color) !important;
 }
 
 [class*="memberInner"]:has([class*="avatar"] [aria-label*="Do Not Disturb"]) [class*="activityCounter"][style*="var(--status-positive)"],
 [class*="channel"]:has([class*="avatar"] [aria-label*="Do Not Disturb"]) [class*="activityCounter"][style*="var(--status-positive)"],
-[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Do Not Disturb"]) [class*="activityCounter"][style*="var(--status-positive)"] {
+[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Do Not Disturb"]) [class*="activityCounter"][style*="var(--status-positive)"],
+[class*="upperContainer"]:has([class*="avatar"] [aria-label*="Do Not Disturb"]) [class*="activityCounter"][style*="var(--status-positive)"] {
   color: var(--dnd-color) !important;
 }
 
@@ -36,12 +40,14 @@
 
 [class*="memberInner"]:has([class*="avatar"] [aria-label*="Streaming"]) svg path[fill="#45a366"],
 [class*="channel"]:has([class*="avatar"] [aria-label*="Streaming"]) svg path[fill="#45a366"],
-[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Streaming"]) svg path[fill="#45a366"] {
+[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Streaming"]) svg path[fill="#45a366"],
+[class*="upperContainer"]:has([class*="avatar"] [aria-label*="Streaming"]) svg path[fill="#45a366"] {
   fill: var(--streaming-color) !important;
 }
 
 [class*="memberInner"]:has([class*="avatar"] [aria-label*="Streaming"]) [class*="activityCounter"][style*="var(--status-positive)"],
 [class*="channel"]:has([class*="avatar"] [aria-label*="Streaming"]) [class*="activityCounter"][style*="var(--status-positive)"],
-[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Streaming"]) [class*="activityCounter"][style*="var(--status-positive)"] {
+[class*="peopleListItem"]:has([class*="avatar"][aria-label*="Streaming"]) [class*="activityCounter"][style*="var(--status-positive)"],
+[class*="upperContainer"]:has([class*="avatar"] [aria-label*="Streaming"]) [class*="activityCounter"][style*="var(--status-positive)"] {
   color: var(--streaming-color) !important;
 }
