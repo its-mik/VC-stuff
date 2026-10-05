@@ -1,3 +1,6 @@
+/**
+@name InactiveCat
+*/
 [class*="scroller"] [class*="emptyCard"]::before {
     content: 
     "𓆈                     \a"
